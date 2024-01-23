@@ -15,14 +15,14 @@ colorEl.value = 'black'
 let color = colorEl.value
 let x
 let y
-
+// this code for  mousedown eventlistener
 canvas.addEventListener('mousedown', (e) => {
     isPressed = true
 
     x = e.offsetX
     y = e.offsetY
 })
-
+// this code for mouseup eventlistener
 document.addEventListener('mouseup', (e) => {
     isPressed = false
 
