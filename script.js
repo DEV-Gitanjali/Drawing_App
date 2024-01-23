@@ -64,6 +64,7 @@ function updateSizeOnScreen() {
     sizeEL.innerText = size
 }
 
+// this method for increase size of the canvas
 increaseBtn.addEventListener('click', () => {
     size += 5
 
@@ -73,7 +74,7 @@ increaseBtn.addEventListener('click', () => {
 
     updateSizeOnScreen()
 })
-
+// this method for decrease size of the canvas
 decreaseBtn.addEventListener('click', () => {
     size -= 5
 
