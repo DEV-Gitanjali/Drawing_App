@@ -8,7 +8,7 @@ const colorEl = document.getElementById('color');
 const clearEl = document.getElementById('clear');
 
 const ctx = canvas.getContext('2d');
-
+// this method for size of the canvas
 let size = 10
 let isPressed = false
 colorEl.value = 'black'
