@@ -64,7 +64,7 @@ function updateSizeOnScreen() {
     sizeEL.innerText = size
 }
 
-// this method for increase size of the canvas
+// this method for increase size 
 increaseBtn.addEventListener('click', () => {
     size += 5
 
@@ -74,7 +74,7 @@ increaseBtn.addEventListener('click', () => {
 
     updateSizeOnScreen()
 })
-// this method for decrease size of the canvas
+// this method for decrease size 
 decreaseBtn.addEventListener('click', () => {
     size -= 5
 
@@ -84,7 +84,7 @@ decreaseBtn.addEventListener('click', () => {
 
     updateSizeOnScreen()
 })
-
+// this method for change color  of drawing 
 colorEl.addEventListener('change', (e) => color = e.target.value)
-
+// this method help for clear the screen
 clearEl.addEventListener('click', () => ctx.clearRect(0,0, canvas.width, canvas.height))
