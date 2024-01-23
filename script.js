@@ -42,14 +42,14 @@ canvas.addEventListener('mousemove', (e) => {
         y = y2
     }
 })
-
+// this code for drawcircle
 function drawCircle(x, y) {
     ctx.beginPath();
     ctx.arc(x, y, size, 0, Math.PI * 2)
     ctx.fillStyle = color
     ctx.fill()
 }
-
+// this code for drawline
 function drawLine(x1, y1, x2, y2) {
     ctx.beginPath()
     ctx.moveTo(x1, y1)
